@@ -20,7 +20,6 @@ html {
     /* background-color: linear-gradient(to right,(#b986cc,#f38282)); */
     background: linear-gradient(55deg, #b66cd1 0%, #f38282 51%, #edcece 85%);
     height: 880px;
-
 }
 
 .row {
@@ -40,7 +39,6 @@ html {
 }
 
 .head {
-
     margin-top: -2px;
 }
 
@@ -48,13 +46,22 @@ html {
     padding: 0;
 }
 
-.nav-item {
-    width: 200px;
+.navbar {
+    background-color:#f88181;
 }
 
-/*.navbar { /*navbar
-    
-}*/
+.nav-item {
+    width: 200px;
+
+}
+
+.nav-item .nav-link {
+    color:rgb(127, 26, 26);
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(65, 2, 2);
+}
 
 .name-container {
     margin-top: 329px;
@@ -82,10 +89,6 @@ html {
     text-align: center;
 
 }
-
-/*.header-about {
-    margin-top: 15px;
-}*/
 
 /* ---------------------------------------------------about-------------------------------------------------------------- */
 
@@ -354,11 +357,6 @@ html {
     padding-top: 0px;
 }
 
-.custom-btn {
-    background-color: rgba(159,5,60);
-    color: #c25a7b;
-}
-
 .btn {
     display: block;
     margin: 0px auto;
@@ -366,16 +364,18 @@ html {
     border: 1px solid  rgba(159,5,60);
     padding: 14px 50px;
     border-radius: 6px;
+
 }
 
-.btn:hover {
-    background-color: rgba(159,5,60);
+.btn.btn.btn1:hover {
+    background: rgb(108, 6, 50);
 }
 
-.btn.btn2 {
+.btn.btn1 {
     display: inline-block;
     background: #af0e5c;
     cursor: pointer;
+    margin-top: 30px;
 
 }
 
