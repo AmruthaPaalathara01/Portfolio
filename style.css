@@ -23,13 +23,15 @@ html {
 /* -----------------------------------navbar----------------------------------------- */
 .navbar {
     background-color: rgba(51, 1, 27, 0.907);
-    justify-content: end;
-    height: 122px;
+    height: 110px;
+    flex-direction: row;
+    width: 100%;
 }
 
 .nav-item {
-    width: 228px;
+    width: 215px;
 }
+
 .nav-item .nav-link  {
     color: rgb(232, 218, 230);
 }
@@ -55,11 +57,13 @@ html {
 }
 .col {
     width: 50%;
+    margin-top: 50px;
 }
 
 #index-photo {
-    width: fit-content;
+    width: 345px;
     border-radius: 300px;
+    margin-top: 50px;
 }
 
 /* --------------------------------------------About page------------------------------------------ */
@@ -187,7 +191,7 @@ html {
 
 
 /* --------------------------------------------project page------------------------------------------ */
-#my-work {
+#projects {
     padding: 40px 0;
 }
 
