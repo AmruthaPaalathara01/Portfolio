@@ -1,0 +1,348 @@
+/* -------------------------------------body----------------------------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./Images/christ-dupli.jpg");
+    background-image: linear-gradient(to right,rgba(207, 237, 250, 0.65),rgba(212, 226, 227, 0.97));
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* -----------------------------------google fonts----------------------------------------- */
+.main-heading {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 850;
+    font-style: italic;
+    font-size: 35px;
+}
+
+
+/* -----------------------------------navbar----------------------------------------- */
+.navbar {
+    background-color: rgba(63, 1, 46, 0.907);
+    justify-content: end;
+    height: 122px;
+}
+
+.nav-item {
+    width: 228px;
+}
+.nav-item .nav-link  {
+    color: rgb(232, 218, 230);
+}
+
+.nav-item .nav-link:hover {
+    color: rgba(47, 248, 235, 0.626);
+}
+
+.nav-justified {
+    width: 100%;
+}
+
+/* --------------------------------------------home page------------------------------------------ */
+#home {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.row {
+    margin:0;
+    padding: 5px 0 5px;
+}
+.col {
+    width: 50%;
+}
+
+#index-photo {
+    width: fit-content;
+    border-radius: 300px;
+}
+
+/* --------------------------------------------About page------------------------------------------ */
+#about {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container-fluid {
+    margin: 29px 0;
+    padding: 50px 20px;
+    overflow:hidden;
+    align-items: center;
+}
+
+.col-4 {
+    width: 25px;
+}
+
+#about-photo {
+    width: 377px;
+    border-radius: 500px;
+    height: 364px;
+    margin-top: 85px;
+}
+
+.introduction {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+/* --------------------------------------------Skill page------------------------------------------ */
+#skill {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.skill-heading {
+    align-items: start;
+    text-align: start;
+}
+
+.skill-list {
+    align-items: start;
+    text-align: start;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+.list-group-item {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+}
+
+.progress {
+    height: 18px;
+}
+
+
+/* --------------------------------------------Education page------------------------------------------ */
+#education {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.education-col-1{
+    padding:15px;
+}
+
+.qualifications {
+    display: flex;
+    margin: 20px 0 40px;
+    justify-content: space-between;
+}
+
+.qualification-links {
+    margin-right: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.qualification-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.qualification-links.active-link::after {
+    width: 70%;
+}
+
+.qualification-contents ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.qualification-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 35px;
+}
+
+.qualification-contents ul li span {
+    color: rgb(32, 2, 2);
+    font-size: 16px;
+}
+
+.qualification-contents {
+    display: none;
+}
+
+.qualification-contents.active-tab {
+    display: block;
+}
+
+
+/* --------------------------------------------project page------------------------------------------ */
+#my-work {
+    padding: 40px 0;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work-1 {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(135, 219, 240, 0.6), #5aa3c2);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3 {
+    font-weight: 120px;
+    margin-bottom: 20px;
+}
+
+.layer a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 60px;
+    background: #fff;
+    color: #b87be1;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+/* --------------------------------------------internship page------------------------------------------ */
+
+/* --------------------------------------------contact------------------------------------------------------ */
+
+#contact {
+    padding: 50px 0;
+    margin: 0px;
+    height: 850px;
+}
+
+.contact-info {
+    margin: 80px 50px;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    flex-basis: 35%;
+}
+
+.mail {
+    width: 15px;
+    text-decoration: none;
+    color: rgba(88, 1, 77, 0.783);
+    font-size: 20px;
+    padding-left: 2px;
+}
+
+.mail:hover{
+    color:#023f45e0;
+}
+
+.linkedin {
+    width: 15px;
+    text-decoration: none;
+    color: rgba(88, 1, 77, 0.783);
+    font-size: 20px;
+    padding-left: 2px;
+}
+
+.linkedin:hover {
+    color:#023f45e0;
+}
+
+.form-floating {
+    padding: 40px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-basis: 60%;
+}
+
+.form-floating label {
+    text-align: center;
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.btn1 {
+    display: block;
+    margin: 0px auto;
+    width: fit-content;
+    border: 1px solid  rgb(22, 3, 10);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color:#2f0218
+}
+
+.btn1:hover {
+    /* background: rgb(108, 6, 50); */
+    color:#023f45e0;
+    background: #932d2d;
+}
+
+.btn1 {
+    display: inline-block;
+    background: #af0e5c;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+#msg {
+    color: #013840;
+    margin-top: -30px;
+    display: block;
+    margin-right: 50px;
+    text-align: center;
+}
