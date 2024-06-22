@@ -22,7 +22,7 @@ html {
 
 /* -----------------------------------navbar----------------------------------------- */
 .navbar {
-    background-color: rgba(63, 1, 46, 0.907);
+    background-color: rgba(51, 1, 27, 0.907);
     justify-content: end;
     height: 122px;
 }
@@ -271,14 +271,21 @@ html {
     text-align: center;
     align-items: center;
     flex-basis: 35%;
+    text-decoration: none;
+    color: rgba(88, 1, 77, 0.783);
+    width: 15px;
+    font-size: 20px;
+    padding-left: 2px;
 }
 
 .mail {
-    width: 15px;
-    text-decoration: none;
-    color: rgba(88, 1, 77, 0.783);
+
     font-size: 20px;
     padding-left: 2px;
+    text-decoration: none;
+    color: rgba(88, 1, 77, 0.783);
+    padding-right: 100px;
+
 }
 
 .mail:hover{
@@ -287,8 +294,6 @@ html {
 
 .linkedin {
     width: 15px;
-    text-decoration: none;
-    color: rgba(88, 1, 77, 0.783);
     font-size: 20px;
     padding-left: 2px;
 }
@@ -317,7 +322,7 @@ html {
 .btn1 {
     display: block;
     margin: 0px auto;
-    width: fit-content;
+    width: 225px;
     border: 1px solid  rgb(22, 3, 10);
     padding: 14px 50px;
     border-radius: 6px;
