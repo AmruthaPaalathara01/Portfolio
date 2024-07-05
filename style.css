@@ -17,6 +17,7 @@ html {
     font-weight: 850;
     font-style: italic;
     font-size: 35px;
+    margin-bottom: 40px;
 }
 
 /* --------------------------------------------home page------------------------------------------ */
@@ -34,6 +35,7 @@ html {
     margin-top: 50px;
     width: 50%;
     margin-left: 153px;
+    margin-bottom: 40px;
 }
 
 #index-photo {
@@ -56,7 +58,7 @@ html {
 }
 
 .container-fluid {
-    margin: 29px 0;
+    margin: 7px 0;
     padding: 50px 20px;
     overflow:hidden;
     align-items: center;
@@ -116,6 +118,7 @@ html {
     display: flex;
 }
 
+/*
 .education-col-1{
     padding:15px;
 }
@@ -170,7 +173,44 @@ html {
 .qualification-contents.active-tab {
     display: block;
 }
+*/
 
+.col-12 {
+    margin-bottom: 50px;
+}
+
+.ul li {
+    color:#56058c ;
+}
+
+.dashed {
+    border-left: 3px dashed #56058c;
+    width: 450px;   
+}
+
+.vl {
+    height: 120px;
+    text-align: left;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+
+.dashed span {
+    text-align: left;
+    display: inline;
+}
+
+.qualifications {
+    font-size: 20px;
+}
+
+.horizontal {
+    border-top:  dashed bold #56058c;
+    padding: 0 10px 0px 5px;
+    border-top: 50px;
+    background: #56058c;
+
+}
 
 /* --------------------------------------------project page------------------------------------------ */
 #projects {
@@ -261,15 +301,15 @@ padding-bottom: 28px;
 
 .contact-info {
     margin: 80px 50px;
-    padding: 100px;
+    padding-top: 43px;
     text-align: center;
     align-items: center;
     flex-basis: 35%;
     text-decoration: none;
     color: rgba(88, 1, 77, 0.783);
-    width: 15px;
+    /*width: 15px;*/
     font-size: 20px;
-    padding-left: 2px;
+    padding-right: 100px;
 }
 
 .mail {
