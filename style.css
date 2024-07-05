@@ -360,20 +360,22 @@ padding-bottom: 28px;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color:#2f0218
+    /* color:#2f0202 */
+    color: #fffeff;
 }
 
 .btn1:hover {
-    /* background: rgb(108, 6, 50); */
-    color:#023f45e0;
-    background: #932d2d;
+    /* color:#023f45e0; */
+    /* background: #932d2d; */
+    background: #021f48;
 }
 
 .btn1 {
     display: inline-block;
-    background: #af0e5c;
+    /* background: #af0e5c; */
     cursor: pointer;
     margin-top: 30px;
+    background: #053b86;
 
 }
 
